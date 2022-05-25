@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>追一数字人 HTML5集成流程 | SDK文档</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="数字人SDK文档">
+    
+    <link rel="preload" href="/docs.github.io/assets/css/0.styles.99c7eff3.css" as="style"><link rel="preload" href="/docs.github.io/assets/js/app.d9cf887e.js" as="script"><link rel="preload" href="/docs.github.io/assets/js/2.1994c147.js" as="script"><link rel="preload" href="/docs.github.io/assets/js/14.7314aeb5.js" as="script"><link rel="prefetch" href="/docs.github.io/assets/js/10.6c4dabbe.js"><link rel="prefetch" href="/docs.github.io/assets/js/11.6c71d1cb.js"><link rel="prefetch" href="/docs.github.io/assets/js/12.93c2d9ee.js"><link rel="prefetch" href="/docs.github.io/assets/js/13.6aad9c81.js"><link rel="prefetch" href="/docs.github.io/assets/js/15.1d4aca8f.js"><link rel="prefetch" href="/docs.github.io/assets/js/16.50f5da09.js"><link rel="prefetch" href="/docs.github.io/assets/js/3.59cb37db.js"><link rel="prefetch" href="/docs.github.io/assets/js/4.4cf98619.js"><link rel="prefetch" href="/docs.github.io/assets/js/5.eb487f64.js"><link rel="prefetch" href="/docs.github.io/assets/js/6.b7aeccce.js"><link rel="prefetch" href="/docs.github.io/assets/js/7.43cacf06.js"><link rel="prefetch" href="/docs.github.io/assets/js/8.bc351861.js"><link rel="prefetch" href="/docs.github.io/assets/js/9.d95fdb85.js">
+    <link rel="stylesheet" href="/docs.github.io/assets/css/0.styles.99c7eff3.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/docs.github.io/" class="home-link router-link-active"><!----> <span class="site-name">SDK文档</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs.github.io/html5/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  简体中文
+</a></li><li class="dropdown-item"><!----> <a href="/docs.github.io/en/html5/" class="nav-link">
+  English
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs.github.io/html5/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  简体中文
+</a></li><li class="dropdown-item"><!----> <a href="/docs.github.io/en/html5/" class="nav-link">
+  English
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><a href="/docs.github.io/android/" class="sidebar-heading clickable"><span>Android文档</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs.github.io/android/" class="sidebar-link">追一数字人Android端集成流程</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/docs.github.io/ios/" class="sidebar-heading clickable"><span>IOS文档</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs.github.io/ios/" class="sidebar-link">追一数字人IOS端集成流程</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/docs.github.io/html5/" aria-current="page" class="sidebar-heading clickable router-link-exact-active router-link-active open active"><span>HTML5文档</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs.github.io/html5/" aria-current="page" class="active sidebar-link">追一数字人 HTML5集成流程</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs.github.io/html5/#安装-sdk" class="sidebar-link">安装 SDK</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/html5/#添加依赖" class="sidebar-link">添加依赖</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/html5/#示例代码" class="sidebar-link">示例代码</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/html5/#播放器" class="sidebar-link">播放器</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/html5/#连接数字人" class="sidebar-link">连接数字人</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/html5/#公共函数以及回调方法" class="sidebar-link">公共函数以及回调方法</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/html5/#浏览器兼容性" class="sidebar-link">浏览器兼容性</a></li></ul></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/docs.github.io/miniprogram/" class="sidebar-heading clickable"><span>微信小程序文档</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs.github.io/miniprogram/" class="sidebar-link">小程序接入流程</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="追一数字人-html5集成流程"><a href="#追一数字人-html5集成流程" class="header-anchor">#</a> 追一数字人 HTML5集成流程</h1> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <blockquote><p><code>SDK</code> 支持目前绝大部分的主流浏览器，比如 Chrome, Edge, Safari 等...也可在微信小程序中使用。</p></blockquote></div> <h2 id="安装-sdk"><a href="#安装-sdk" class="header-anchor">#</a> 安装 SDK</h2> <p><code>SDK</code> 会以压缩包的形式提供，类似如下的格式：</p> <ul><li>face-html-2022xxxx.zip</li></ul> <h2 id="添加依赖"><a href="#添加依赖" class="header-anchor">#</a> 添加依赖</h2> <p>本项目暂时未发布到公网的 <code>npm</code> 仓库，所以使用本地安装的方式添加依赖。</p> <p>将 <code>SDK</code> 压缩包解压缩到项目目录，然后使用 <code>npm install</code> 命令链接：</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">npm</span> <span class="token function">install</span> face-html/
+</code></pre></div><p>这个命令会在 <code>node_modules</code> 目录中创建一个软连接指向到实际的目录。当然也可以直接复制 <code>face-html</code> 目录到 <code>node_modules</code> 中，但是不推荐这么做。
+因为 <code>npm</code> 的命令在更新依赖时会清理所有未在 <code>package.json</code> 中注册的模块文件。</p> <p>您也可以使用 <code>npm link</code> 命令安装依赖。</p> <p>另外由于使用了 <code>@babel/plugin-transform-runtime</code> 辅助开发，所以需要添加此插件的运行时依赖：</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">npm</span> <span class="token function">install</span> --save @babel/runtime
+</code></pre></div><p>检查项目 <code>package.json</code> 中的 <code>dependencies</code> 部分：</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+    <span class="token property">&quot;devDependencies&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token comment">//</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;dependencies&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">&quot;@babel/runtime&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^7.0.0&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;face-html&quot;</span><span class="token operator">:</span> <span class="token string">&quot;file:./face-html&quot;</span>
+        <span class="token comment">//...</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="示例代码"><a href="#示例代码" class="header-anchor">#</a> 示例代码</h2> <p>以下会以一个基础的 <code>Vue</code> 页面为例，讲解接入方式。</p> <blockquote><p>您可以使用 <code>vue serve hello.vue</code> 命令快速运行一个 <code>Vue</code> 页面，无需创建一个独立的项目。
+具体方式请参考：https://cli.vuejs.org/guide/prototyping.html</p></blockquote> <h2 id="播放器"><a href="#播放器" class="header-anchor">#</a> 播放器</h2> <p>首先在页面中嵌入一个播放器：</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>video</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>rtc_player<span class="token punctuation">&quot;</span></span> <span class="token attr-name">autoplay</span> <span class="token attr-name">muted</span> <span class="token attr-name">playsinline</span> <span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h2 id="连接数字人"><a href="#连接数字人" class="header-anchor">#</a> 连接数字人</h2> <p>导入 <code>FaceClient</code>，实例化以后设置属性 <code>endpoint</code> 的值，也就是中控服务器的 <code>Websocket</code> 连接地址，调用 <code>start()</code> 方法启动即可。</p> <p>然后我们只要关注对象的各个回调方法，即可与服务器进行交互。</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> FaceClient <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'face-html'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+    <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">{</span>
+            player<span class="token operator">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+    <span class="token function">mounted</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">// ...</span>
+
+        <span class="token comment">// 初始化播放器并连接中控</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>player <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">RTCPlayerExpress</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>player<span class="token punctuation">.</span>secure <span class="token operator">=</span> <span class="token boolean">false</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>player<span class="token punctuation">.</span>endpoint <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">ws://....</span><span class="token template-punctuation string">`</span></span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>player<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+        <span class="token comment">// 关联视频流</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>player<span class="token punctuation">.</span><span class="token function-variable function">onTrack</span> <span class="token operator">=</span> event <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+            <span class="token comment">// 通常会接收到来自服务器的有两条流 video 和 audio</span>
+            <span class="token comment">// 只需要关联 video 即可</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>event<span class="token punctuation">.</span>track<span class="token punctuation">.</span>kind <span class="token operator">!=</span> <span class="token string">'video'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token keyword">return</span>
+            <span class="token punctuation">}</span>
+
+            <span class="token keyword">var</span> media <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'rtc_player'</span><span class="token punctuation">)</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>media <span class="token operator">&amp;&amp;</span> event<span class="token punctuation">.</span>streams<span class="token punctuation">.</span>length <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                media<span class="token punctuation">.</span>srcObject <span class="token operator">=</span> event<span class="token punctuation">.</span>streams<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token comment">// 监听来自服务器的交互信息</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>player<span class="token punctuation">.</span><span class="token function-variable function">onMessage</span> <span class="token operator">=</span> message <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+            <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>message<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token comment">//  启动 5 秒后，发送一条信息</span>
+        <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+            <span class="token keyword">const</span> msg <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span><span class="token punctuation">{</span> type<span class="token operator">:</span> <span class="token number">5</span><span class="token punctuation">,</span> video_text<span class="token operator">:</span> <span class="token string">'您好，我是追一数字人...'</span> <span class="token punctuation">}</span><span class="token punctuation">)</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span>player<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span>msg<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">5000</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+</code></pre></div><h2 id="公共函数以及回调方法"><a href="#公共函数以及回调方法" class="header-anchor">#</a> 公共函数以及回调方法</h2> <p>以下是 <code>TypeScript</code> 定义的目前可用的接口以及一些回调方法，使用方式可参考上面的示例。</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code>    <span class="token comment">// 启动数字人</span>
+    <span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span>
+    <span class="token comment">// 关闭数字人</span>
+    <span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span>
+    <span class="token comment">// 发送文本</span>
+    <span class="token function">send</span><span class="token punctuation">(</span>message<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span>
+
+    <span class="token comment">// 当收到视频流时触发</span>
+    onTrack<span class="token operator">!</span><span class="token operator">:</span> <span class="token punctuation">(</span>event<span class="token operator">:</span> RTCTrackEvent<span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">void</span>
+    <span class="token comment">// 当中控连接超时时触发</span>
+    onConnectionDisconnected<span class="token operator">!</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">void</span>
+    <span class="token comment">// 空闲时间超过 600 秒，退出系统并且触发此方法</span>
+    onIdleTimeout<span class="token operator">!</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">void</span>
+    <span class="token comment">// 数字人开始语音播报时</span>
+    onPlayStart<span class="token operator">!</span><span class="token operator">:</span> <span class="token punctuation">(</span>message<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">void</span>
+    <span class="token comment">// 数字人结束语音播报时</span>
+    onPlayEnd<span class="token operator">!</span><span class="token operator">:</span> <span class="token punctuation">(</span>message<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">void</span>
+    <span class="token comment">// 当收到来自服务器的消息时触发</span>
+    onMessage<span class="token operator">!</span><span class="token operator">:</span> <span class="token punctuation">(</span>message<span class="token operator">:</span> object<span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">void</span>
+    <span class="token comment">// 中控服务器断开时</span>
+    onSocketClosed<span class="token operator">!</span><span class="token operator">:</span> <span class="token punctuation">(</span>code<span class="token operator">:</span>Int<span class="token punctuation">,</span> reason<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">void</span>
+    <span class="token comment">// 中控服务器连接错误时</span>
+    onSocketError<span class="token operator">!</span><span class="token operator">:</span> <span class="token punctuation">(</span>error<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">void</span>
+</code></pre></div><h2 id="浏览器兼容性"><a href="#浏览器兼容性" class="header-anchor">#</a> 浏览器兼容性</h2> <p>由于客户端上设备的多样性，前端环境较为复杂，即使相同的代码在不同的环境中也可能表现出差异性。</p> <p>如 <code>video</code> 标签，在不同浏览器中行为受到不同的限制，<code>Google Chrome</code> 会严格限制音视频的自动播放，需要用户的交互行为或是使用 <code>muted</code> 标签关闭声音。</p> <p>又或者在苹果 iOS 系统中，系统总是会尝试以全屏的方式播放视频，如果失败则自动暂停，添加 <code>playsinline</code> 标签可使视频可以在未全屏的情况下自动播放。</p> <p>诸如此类，与安卓等平台不同时，<code>H5 SDK</code> 无法干预客户端播放器的行为，此类问题需要前端的开发者自行处理。</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/docs.github.io/ios/" class="prev">
+        追一数字人IOS端集成流程
+      </a></span> <span class="next"><a href="/docs.github.io/miniprogram/">
+        小程序接入流程
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/docs.github.io/assets/js/app.d9cf887e.js" defer></script><script src="/docs.github.io/assets/js/2.1994c147.js" defer></script><script src="/docs.github.io/assets/js/14.7314aeb5.js" defer></script>
+  </body>
+</html>

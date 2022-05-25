@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>追一数字人IOS端集成流程 | SDK文档</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="数字人SDK文档">
+    
+    <link rel="preload" href="/docs.github.io/assets/css/0.styles.99c7eff3.css" as="style"><link rel="preload" href="/docs.github.io/assets/js/app.d9cf887e.js" as="script"><link rel="preload" href="/docs.github.io/assets/js/2.1994c147.js" as="script"><link rel="preload" href="/docs.github.io/assets/js/15.1d4aca8f.js" as="script"><link rel="prefetch" href="/docs.github.io/assets/js/10.6c4dabbe.js"><link rel="prefetch" href="/docs.github.io/assets/js/11.6c71d1cb.js"><link rel="prefetch" href="/docs.github.io/assets/js/12.93c2d9ee.js"><link rel="prefetch" href="/docs.github.io/assets/js/13.6aad9c81.js"><link rel="prefetch" href="/docs.github.io/assets/js/14.7314aeb5.js"><link rel="prefetch" href="/docs.github.io/assets/js/16.50f5da09.js"><link rel="prefetch" href="/docs.github.io/assets/js/3.59cb37db.js"><link rel="prefetch" href="/docs.github.io/assets/js/4.4cf98619.js"><link rel="prefetch" href="/docs.github.io/assets/js/5.eb487f64.js"><link rel="prefetch" href="/docs.github.io/assets/js/6.b7aeccce.js"><link rel="prefetch" href="/docs.github.io/assets/js/7.43cacf06.js"><link rel="prefetch" href="/docs.github.io/assets/js/8.bc351861.js"><link rel="prefetch" href="/docs.github.io/assets/js/9.d95fdb85.js">
+    <link rel="stylesheet" href="/docs.github.io/assets/css/0.styles.99c7eff3.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/docs.github.io/" class="home-link router-link-active"><!----> <span class="site-name">SDK文档</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs.github.io/ios/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  简体中文
+</a></li><li class="dropdown-item"><!----> <a href="/docs.github.io/en/ios/" class="nav-link">
+  English
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs.github.io/ios/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  简体中文
+</a></li><li class="dropdown-item"><!----> <a href="/docs.github.io/en/ios/" class="nav-link">
+  English
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><a href="/docs.github.io/android/" class="sidebar-heading clickable"><span>Android文档</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs.github.io/android/" class="sidebar-link">追一数字人Android端集成流程</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/docs.github.io/ios/" aria-current="page" class="sidebar-heading clickable router-link-exact-active router-link-active open active"><span>IOS文档</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs.github.io/ios/" aria-current="page" class="active sidebar-link">追一数字人IOS端集成流程</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs.github.io/ios/#安装-sdk" class="sidebar-link">安装 SDK</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/ios/#添加依赖" class="sidebar-link">添加依赖</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/ios/#权限声明" class="sidebar-link">权限声明</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/ios/#示例代码" class="sidebar-link">示例代码</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/ios/#界面渲染" class="sidebar-link">界面渲染</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/ios/#初始化" class="sidebar-link">初始化</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/ios/#委托方法" class="sidebar-link">委托方法</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/ios/#屏幕适配" class="sidebar-link">屏幕适配</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/ios/#资源释放" class="sidebar-link">资源释放</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/ios/#演示项目" class="sidebar-link">演示项目</a></li></ul></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/docs.github.io/html5/" class="sidebar-heading clickable"><span>HTML5文档</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs.github.io/html5/" class="sidebar-link">追一数字人 HTML5集成流程</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/docs.github.io/miniprogram/" class="sidebar-heading clickable"><span>微信小程序文档</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs.github.io/miniprogram/" class="sidebar-link">小程序接入流程</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="追一数字人ios端集成流程"><a href="#追一数字人ios端集成流程" class="header-anchor">#</a> 追一数字人IOS端集成流程</h1> <div class="custom-block warning"><p class="custom-block-title">WARNING</p> <blockquote><p><code>SDK</code> 目前支持的版本为 <code>iOS 10+</code></p></blockquote></div> <h2 id="安装-sdk"><a href="#安装-sdk" class="header-anchor">#</a> 安装 SDK</h2> <p>在苹果系统中，<code>SDK</code> 将会以 <code>framework</code> 的形式提供，通常会包含：</p> <ul><li>WebRTC.framework</li> <li>Vibot.xcframework</li></ul> <h2 id="添加依赖"><a href="#添加依赖" class="header-anchor">#</a> 添加依赖</h2> <p>打开您的项目工程，进入项目名进入设置界面，依次选择：</p> <div class="language-text extra-class"><pre class="language-text"><code>    TARGETS -&gt; (App) -&gt; General
+</code></pre></div><p>找到 <code>Frameworks, Libraries and Embedded Content</code> 部分，将提供的两个包拖进去即可。</p> <p>或者直接拖到左侧导航栏的 <code>Frameworks</code> 目录下，在弹出的界面中选择要添加到的 <code>Target</code> 即可。</p> <h2 id="权限声明"><a href="#权限声明" class="header-anchor">#</a> 权限声明</h2> <p>不需要声明权限。</p> <h2 id="示例代码"><a href="#示例代码" class="header-anchor">#</a> 示例代码</h2> <p>下面将以一个简单的 <em>Objective-C</em> 项目为例，讲解如何在您的项目中集成追一数字人：</p> <blockquote><p>所有示例代码仅作参考，无法直接编译和运行，需根据实际情况进行修改。</p></blockquote> <h2 id="界面渲染"><a href="#界面渲染" class="header-anchor">#</a> 界面渲染</h2> <p>首先我们需要一个可渲染动画的控件，<code>Google WebRTC</code> 为我们提供了两个选择：</p> <ul><li>基于 <code>OpenGL ES</code> 的 <code>RTCEAGLVideoView</code></li> <li>基于 <code>Metal</code> 的 <code>RTCMTLVideoView</code></li></ul> <p>如果支持的话，<code>SDK</code> 内部会自动选择 <code>RTCMTLVideoView</code>，否则会自动降到 <code>RTCEAGLVideoView</code>，不需要用户自动检测。</p> <p>只要在您的视图类中定义属性时，使用 <code>RTCRenderView</code> 替代即可：</p> <div class="language-objc extra-class"><pre class="language-objc"><code><span class="token keyword">@property</span><span class="token punctuation">(</span>nonatomic<span class="token punctuation">,</span> strong<span class="token punctuation">)</span> RTCRenderView <span class="token operator">*</span>myview<span class="token punctuation">;</span>
+</code></pre></div><p>为了防止报错，需要将两个头文件都导入：</p> <div class="language-objc extra-class"><pre class="language-objc"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">import</span> <span class="token expression"><span class="token operator">&lt;</span>WebRTC<span class="token operator">/</span>RTCEAGLVideoView<span class="token punctuation">.</span>h<span class="token operator">&gt;</span></span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">import</span> <span class="token expression"><span class="token operator">&lt;</span>WebRTC<span class="token operator">/</span>RTCMTLVideoView<span class="token punctuation">.</span>h<span class="token operator">&gt;</span></span></span>
+</code></pre></div><p>初始化视图对象，赋值给 <code>RTCPlayer</code> 的 <code>setView</code>：</p> <div class="language-objc extra-class"><pre class="language-objc"><code>_myview <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">[</span>RTCRenderView alloc<span class="token punctuation">]</span> initWithFrame<span class="token punctuation">:</span>CGRectZero<span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token punctuation">[</span><span class="token keyword">self</span><span class="token punctuation">.</span>view addSubview<span class="token punctuation">:</span>_myview<span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="初始化"><a href="#初始化" class="header-anchor">#</a> 初始化</h2> <p>与安卓系统不同，<code>iOS</code> 系统中初始化过程比较简单，比如在 <code>viewDidLoad</code> 方法中运行如下代码：</p> <div class="language-objc extra-class"><pre class="language-objc"><code><span class="token comment">// 检查iOS系统是否支持数字人</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span><span class="token punctuation">[</span>RTCPlayer isSupported<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">NSLog</span><span class="token punctuation">(</span><span class="token string">@&quot;Not supported&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 初始化配置信息</span>
+RTCPlayerConfig <span class="token operator">*</span>config <span class="token operator">=</span> <span class="token punctuation">[</span>RTCPlayerConfig shared<span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token punctuation">[</span>config setHost<span class="token punctuation">:</span><span class="token string">@&quot;example.wezhuiyi.com&quot;</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token punctuation">[</span>config setStreamHost<span class="token punctuation">:</span><span class="token string">@&quot;example.wezhuiyi.com&quot;</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token punctuation">[</span>config useSecureProtocol<span class="token punctuation">:</span>YES<span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 初始化播放器</span>
+_player <span class="token operator">=</span> RTCPlayer<span class="token punctuation">.</span>shared<span class="token punctuation">;</span>
+<span class="token punctuation">[</span>_player setConfig<span class="token punctuation">:</span>config<span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token punctuation">[</span>_player setDelegate<span class="token punctuation">:</span><span class="token keyword">self</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token punctuation">[</span>_player setView<span class="token punctuation">:</span>_myview<span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token punctuation">[</span>_player setBounds<span class="token punctuation">:</span><span class="token keyword">self</span><span class="token punctuation">.</span>view<span class="token punctuation">.</span>bounds<span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token punctuation">[</span>_player start<span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre></div><p><code>isSupported</code> 用来检查当前运行的系统是否支持数字人，比如系统版本小于 iOS 10 的将无法使用数字人，
+某些旧型号的苹果手机，比如 <code>iPhone5</code> 和 <code>iPhone5C</code> 也会被屏蔽。</p> <p><code>RTCPlayerConfig</code> 用来设置配置信息。</p> <p><code>setView</code> 传入渲染视图的实例。</p> <p><code>setBounds</code> 传入视频显示区域的边界大小，通常是渲染控件的父容器的大小。</p> <h2 id="委托方法"><a href="#委托方法" class="header-anchor">#</a> 委托方法</h2> <p>为了有效的控制视频以及实现相关业务逻辑，<code>SDK</code> 定义了很多回调方法，在定义视图控制器时需要实现这些委托方法：</p> <div class="language-objc extra-class"><pre class="language-objc"><code><span class="token keyword">@interface</span> <span class="token function">PlayerViewController</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">&lt;</span>RTCPlayerDelegate<span class="token operator">&gt;</span>
+</code></pre></div><p>以下是 <code>RTCPlayer</code> 的所有委托方法：</p> <div class="language-objc extra-class"><pre class="language-objc"><code><span class="token comment">// 委托</span>
+<span class="token keyword">@protocol</span> RTCPlayerDelegate
+
+<span class="token comment">// 流媒体服务器断开时触发</span>
+<span class="token comment">// 网络连接断开时触发</span>
+<span class="token comment">// 立即响应</span>
+<span class="token operator">-</span> <span class="token punctuation">(</span><span class="token keyword">void</span><span class="token punctuation">)</span>onConnectionDisconnected<span class="token punctuation">;</span>
+
+<span class="token comment">// 超过一定时间没有任何动作，自动关闭播放器</span>
+<span class="token operator">-</span> <span class="token punctuation">(</span><span class="token keyword">void</span><span class="token punctuation">)</span>onIdleTimeout<span class="token punctuation">;</span>
+
+<span class="token comment">// 网络状态</span>
+<span class="token operator">-</span> <span class="token punctuation">(</span><span class="token keyword">void</span><span class="token punctuation">)</span>onNetworkStatus<span class="token punctuation">:</span><span class="token punctuation">(</span>RTCNetworkStatus<span class="token punctuation">)</span>status<span class="token punctuation">;</span>
+
+<span class="token comment">// Websocket 连通后，接收到中控发来的播放地址</span>
+<span class="token operator">-</span> <span class="token punctuation">(</span><span class="token keyword">void</span><span class="token punctuation">)</span>onReceivePlayURL<span class="token punctuation">:</span><span class="token punctuation">(</span>NSString <span class="token operator">*</span><span class="token punctuation">)</span>url<span class="token punctuation">;</span>
+
+<span class="token comment">// 接收到视频服务器发送来的视频信号</span>
+<span class="token operator">-</span> <span class="token punctuation">(</span><span class="token keyword">void</span><span class="token punctuation">)</span>onReceiveStream<span class="token punctuation">:</span><span class="token punctuation">(</span>RTCVideoTrack <span class="token operator">*</span><span class="token punctuation">)</span>track<span class="token punctuation">;</span>
+
+<span class="token comment">// 语音播报开始</span>
+<span class="token operator">-</span> <span class="token punctuation">(</span><span class="token keyword">void</span><span class="token punctuation">)</span>onPlaySoundStart<span class="token punctuation">:</span><span class="token punctuation">(</span>NSString <span class="token operator">*</span><span class="token punctuation">)</span>msg<span class="token punctuation">;</span>
+
+<span class="token comment">// 语音播报结束</span>
+<span class="token operator">-</span> <span class="token punctuation">(</span><span class="token keyword">void</span><span class="token punctuation">)</span>onPlaySoundEnd<span class="token punctuation">:</span><span class="token punctuation">(</span>NSString <span class="token operator">*</span><span class="token punctuation">)</span>msg<span class="token punctuation">;</span>
+
+<span class="token comment">// 收到来自中控服务器的消息</span>
+<span class="token operator">-</span> <span class="token punctuation">(</span><span class="token keyword">void</span><span class="token punctuation">)</span>onMessage<span class="token punctuation">:</span><span class="token punctuation">(</span>NSString <span class="token operator">*</span><span class="token punctuation">)</span>msg<span class="token punctuation">;</span>
+
+<span class="token comment">// 中控服务器断开时触发</span>
+<span class="token comment">// 网络断开时触发</span>
+<span class="token comment">// 有延迟</span>
+<span class="token operator">-</span> <span class="token punctuation">(</span><span class="token keyword">void</span><span class="token punctuation">)</span>onSocketClosed<span class="token punctuation">:</span><span class="token punctuation">(</span>NSInteger<span class="token punctuation">)</span>code reason<span class="token punctuation">:</span><span class="token punctuation">(</span>NSString <span class="token operator">*</span><span class="token punctuation">)</span>reason wasClean<span class="token punctuation">:</span><span class="token punctuation">(</span>BOOL<span class="token punctuation">)</span>wasClean<span class="token punctuation">;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">@end</span>
+</code></pre></div><p>部分方法在非 <code>UI</code> 线程中调用，所以如果要更新界面，需要切换到主线程。如：</p> <div class="language-objc extra-class"><pre class="language-objc"><code><span class="token function">dispatch_async</span><span class="token punctuation">(</span><span class="token function">dispatch_get_main_queue</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token operator">^</span><span class="token punctuation">{</span>
+    <span class="token comment">// your code</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="屏幕适配"><a href="#屏幕适配" class="header-anchor">#</a> 屏幕适配</h2> <p>数字人的原始分辨率为 <code>540 * 960</code>，由于手机设备的高宽比各不相同，所以在非 16:9 的设备上可能会出现白边的情况。
+<code>SDK</code> 在内部已经自动调整画面按照比例缩放填充整个播放区域。</p> <h2 id="资源释放"><a href="#资源释放" class="header-anchor">#</a> 资源释放</h2> <p>只需调用 <code>stop</code> 方法即可。</p> <div class="language-objc extra-class"><pre class="language-objc"><code><span class="token operator">-</span> <span class="token punctuation">(</span><span class="token keyword">void</span><span class="token punctuation">)</span>viewWillDisappear<span class="token punctuation">:</span><span class="token punctuation">(</span>BOOL<span class="token punctuation">)</span>animated <span class="token punctuation">{</span>
+    <span class="token punctuation">[</span><span class="token keyword">super</span> viewWillDisappear<span class="token punctuation">:</span>animated<span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token punctuation">[</span>_player stop<span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="演示项目"><a href="#演示项目" class="header-anchor">#</a> 演示项目</h2> <p>完整的演示代码随 <code>SDK</code> 一起提供，包含在压缩包中。</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/docs.github.io/android/" class="prev">
+        追一数字人Android端集成流程
+      </a></span> <span class="next"><a href="/docs.github.io/html5/">
+        追一数字人 HTML5集成流程
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/docs.github.io/assets/js/app.d9cf887e.js" defer></script><script src="/docs.github.io/assets/js/2.1994c147.js" defer></script><script src="/docs.github.io/assets/js/15.1d4aca8f.js" defer></script>
+  </body>
+</html>

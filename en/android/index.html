@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Face for Android | SDK Docs</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="Face SDK DOCS">
+    
+    <link rel="preload" href="/docs.github.io/assets/css/0.styles.99c7eff3.css" as="style"><link rel="preload" href="/docs.github.io/assets/js/app.d9cf887e.js" as="script"><link rel="preload" href="/docs.github.io/assets/js/2.1994c147.js" as="script"><link rel="preload" href="/docs.github.io/assets/js/10.6c4dabbe.js" as="script"><link rel="prefetch" href="/docs.github.io/assets/js/11.6c71d1cb.js"><link rel="prefetch" href="/docs.github.io/assets/js/12.93c2d9ee.js"><link rel="prefetch" href="/docs.github.io/assets/js/13.6aad9c81.js"><link rel="prefetch" href="/docs.github.io/assets/js/14.7314aeb5.js"><link rel="prefetch" href="/docs.github.io/assets/js/15.1d4aca8f.js"><link rel="prefetch" href="/docs.github.io/assets/js/16.50f5da09.js"><link rel="prefetch" href="/docs.github.io/assets/js/3.59cb37db.js"><link rel="prefetch" href="/docs.github.io/assets/js/4.4cf98619.js"><link rel="prefetch" href="/docs.github.io/assets/js/5.eb487f64.js"><link rel="prefetch" href="/docs.github.io/assets/js/6.b7aeccce.js"><link rel="prefetch" href="/docs.github.io/assets/js/7.43cacf06.js"><link rel="prefetch" href="/docs.github.io/assets/js/8.bc351861.js"><link rel="prefetch" href="/docs.github.io/assets/js/9.d95fdb85.js">
+    <link rel="stylesheet" href="/docs.github.io/assets/css/0.styles.99c7eff3.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/docs.github.io/en/" class="home-link router-link-active"><!----> <span class="site-name">SDK Docs</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs.github.io/android/" class="nav-link">
+  简体中文
+</a></li><li class="dropdown-item"><!----> <a href="/docs.github.io/en/android/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  English
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs.github.io/android/" class="nav-link">
+  简体中文
+</a></li><li class="dropdown-item"><!----> <a href="/docs.github.io/en/android/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  English
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><a href="/docs.github.io/en/android/" aria-current="page" class="sidebar-heading clickable router-link-exact-active router-link-active open active"><span>Android</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs.github.io/en/android/" aria-current="page" class="active sidebar-link">Face for Android</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs.github.io/en/android/#unzip-the-library" class="sidebar-link">Unzip the library</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/en/android/#copy-aar-files-into-libs-folder" class="sidebar-link">Copy AAR files into libs folder</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/en/android/#permissions" class="sidebar-link">Permissions</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/en/android/#initialize-sdk" class="sidebar-link">Initialize SDK</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/en/android/#declaring-a-layout" class="sidebar-link">Declaring a layout</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/en/android/#initialize-player" class="sidebar-link">Initialize Player</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/en/android/#callbacks" class="sidebar-link">Callbacks</a></li><li class="sidebar-sub-header"><a href="/docs.github.io/en/android/#lifecycles" class="sidebar-link">Lifecycles</a></li></ul></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/docs.github.io/en/ios/" class="sidebar-heading clickable"><span>IOS</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs.github.io/en/ios/" class="sidebar-link">Face for iOS</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/docs.github.io/en/html5/" class="sidebar-heading clickable"><span>HTML5</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs.github.io/en/html5/" class="sidebar-link">Face for HTML5</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/docs.github.io/en/miniprogram/" class="sidebar-heading clickable"><span>Miniprogram</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs.github.io/en/miniprogram/" class="sidebar-link">小程序接入流程</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="face-for-android"><a href="#face-for-android" class="header-anchor">#</a> Face for Android</h1> <div class="custom-block warning"><p class="custom-block-title">WARNING</p> <blockquote><p>Minimum Android Version: <code>Lollipop 5.x (API level 21)</code></p></blockquote></div> <h2 id="unzip-the-library"><a href="#unzip-the-library" class="header-anchor">#</a> Unzip the library</h2> <p>Face <code>SDK</code> for Android is an AAR library that contains two files:</p> <ul><li><strong>libwebrtc-20211125.aar</strong> - Google WebRTC library</li> <li><strong>FACE.RELEASE-1.3.4-20211216.aar</strong> - The Face SDK itself</li></ul> <p>The first step is to unzip the contents into a folder of your choosing.</p> <h2 id="copy-aar-files-into-libs-folder"><a href="#copy-aar-files-into-libs-folder" class="header-anchor">#</a> Copy AAR files into libs folder</h2> <p>Your project's main app module should have a libs folder - that's the best place to copy the AAR files.</p> <p>Open your app module's build.gradle file and include the following lines inside the dependencies section.</p> <p>If the file doesn't have a dependencies section, check that you're in your app module's build.gradle file rather than that of your entire project.</p> <div class="language-groovy extra-class"><pre class="language-groovy"><code>dependencies <span class="token punctuation">{</span>
+    <span class="token comment">// aar files ...</span>
+    implementation <span class="token function">files</span><span class="token punctuation">(</span><span class="token string">'libs/libwebrtc-20211125.aar'</span><span class="token punctuation">)</span>
+    implementation <span class="token function">files</span><span class="token punctuation">(</span><span class="token string">'libs/FACE.RELEASE-1.3.4-20211216.aar'</span><span class="token punctuation">)</span>
+
+    <span class="token comment">// also need Websocket and JSON library </span>
+    implementation <span class="token string">'org.java-websocket:Java-WebSocket:1.5.2'</span>
+    implementation <span class="token string">'com.alibaba:fastjson:1.1.73.android'</span>
+    <span class="token comment">// ...... something else</span>
+    implementation <span class="token string">'androidx.constraintlayout:constraintlayout:2.1.2'</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="permissions"><a href="#permissions" class="header-anchor">#</a> Permissions</h2> <p>The Face SDK requires the following permissions which you do not need to add as they add as they are automatically merged by including the SDK in the build.gradle dependencies:</p> <div class="language-xml extra-class"><pre class="language-xml"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uses-permission</span> <span class="token attr-name"><span class="token namespace">android:</span>name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>android.permission.INTERNET<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uses-permission</span> <span class="token attr-name"><span class="token namespace">android:</span>name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>android.permission.ACCESS_NETWORK_STATE<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>uses-permission</span> <span class="token attr-name"><span class="token namespace">android:</span>name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>android.permission.MODIFY_AUDIO_SETTINGS<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+</code></pre></div><h2 id="initialize-sdk"><a href="#initialize-sdk" class="header-anchor">#</a> Initialize SDK</h2> <p>The <code>RTCPlayerClient.initialize()</code> that used to initialize environment of WebRTC should be called as soon as possible and only once for the entire life of the activity.</p> <p>So it's recommended to call this method in <code>Application::onCreate()</code>.</p> <div class="language-kotlin extra-class"><pre class="language-kotlin"><code><span class="token keyword">package</span> ai<span class="token punctuation">.</span>zhuiyi<span class="token punctuation">.</span>demo
+
+<span class="token keyword">import</span> ai<span class="token punctuation">.</span>zhuiyi<span class="token punctuation">.</span>face<span class="token punctuation">.</span>webrtc<span class="token punctuation">.</span>RTCPlayerClient
+<span class="token keyword">import</span> android<span class="token punctuation">.</span>app<span class="token punctuation">.</span>Application
+
+<span class="token keyword">class</span> FaceApp <span class="token operator">:</span> <span class="token function">Application</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">companion</span> <span class="token keyword">object</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onCreate</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">super</span><span class="token punctuation">.</span><span class="token function">onCreate</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+        RTCPlayerClient<span class="token punctuation">.</span><span class="token function">initialize</span><span class="token punctuation">(</span>applicationContext<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="declaring-a-layout"><a href="#declaring-a-layout" class="header-anchor">#</a> Declaring a layout</h2> <p>Create a new XML layout of player view in <code>res/layouts/player.xml</code> using <code>ConstraintLayout</code>.
+Example:</p> <div class="language-xml extra-class"><pre class="language-xml"><code><span class="token prolog">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>androidx.constraintlayout.widget.ConstraintLayout</span>
+    <span class="token attr-name"><span class="token namespace">xmlns:</span>android</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>http://schemas.android.com/apk/res/android<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name"><span class="token namespace">xmlns:</span>app</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>http://schemas.android.com/apk/res-auto<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name"><span class="token namespace">xmlns:</span>tools</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>http://schemas.android.com/tools<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name"><span class="token namespace">android:</span>layout_width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>match_parent<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name"><span class="token namespace">android:</span>layout_height</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>match_parent<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name"><span class="token namespace">tools:</span>context</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>ai.zhuiyi.demo.PlayerActivity<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span> <span class="token comment">&lt;!-- change package name if needed--&gt;</span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>org.webrtc.SurfaceViewRenderer</span>
+        <span class="token attr-name"><span class="token namespace">android:</span>id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>@+id/webrtc_view<span class="token punctuation">&quot;</span></span>
+        <span class="token attr-name"><span class="token namespace">android:</span>layout_width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>match_parent<span class="token punctuation">&quot;</span></span>
+        <span class="token attr-name"><span class="token namespace">android:</span>layout_height</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>match_parent<span class="token punctuation">&quot;</span></span>
+        <span class="token attr-name"><span class="token namespace">android:</span>layout_gravity</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>center<span class="token punctuation">&quot;</span></span>
+        <span class="token attr-name"><span class="token namespace">android:</span>visibility</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>gone<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>androidx.constraintlayout.widget.ConstraintLayout</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>Then create a <code>PlayerActivity</code> and initialize the <code>SDK</code> in <code>Activity::onCreate()</code>.</p> <h2 id="initialize-player"><a href="#initialize-player" class="header-anchor">#</a> Initialize Player</h2> <div class="language-kotlin extra-class"><pre class="language-kotlin"><code><span class="token keyword">private</span> <span class="token keyword">lateinit</span> <span class="token keyword">var</span> view<span class="token operator">:</span> SurfaceViewRenderer
+<span class="token keyword">private</span> <span class="token keyword">lateinit</span> <span class="token keyword">var</span> playerClient<span class="token operator">:</span> RTCPlayerClient
+
+view <span class="token operator">=</span> findViewById<span class="token operator">&lt;</span>SurfaceViewRenderer<span class="token operator">&gt;</span><span class="token punctuation">(</span>R<span class="token punctuation">.</span>id<span class="token punctuation">.</span>webrtc_view<span class="token punctuation">)</span>
+
+playerClient <span class="token operator">=</span> RTCPlayerClient<span class="token punctuation">.</span><span class="token function">Builder</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">fromEndpoint</span><span class="token punctuation">(</span>endpoint<span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">setHttpApiPort</span><span class="token punctuation">(</span>port<span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">setView</span><span class="token punctuation">(</span>view<span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span>applicationContext<span class="token punctuation">,</span> EglBase<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div><p>The parameters of <code>fromEndpoint()</code> and <code>setHttpApiPort()</code> for creating an instance of <code>RTCPlayerClient</code> will be provided by the factory's technicians.</p> <p>The Face SDK supports the Android Lolipop or higher. But it is better to check the version of the system before using it.</p> <div class="language-kotlin extra-class"><pre class="language-kotlin"><code><span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>RTCPlayerClient<span class="token punctuation">.</span><span class="token function">isSupported</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    Log<span class="token punctuation">.</span><span class="token function">e</span><span class="token punctuation">(</span>TAG<span class="token punctuation">,</span> <span class="token string-literal singleline"><span class="token string">&quot;Your device is not supported&quot;</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="callbacks"><a href="#callbacks" class="header-anchor">#</a> Callbacks</h2> <div class="language-kotlin extra-class"><pre class="language-kotlin"><code>playerClient<span class="token punctuation">.</span><span class="token function">addObserver</span><span class="token punctuation">(</span><span class="token keyword">object</span> <span class="token operator">:</span> RTCPlayerObserver <span class="token punctuation">{</span>
+    <span class="token comment">// Called when the network is slow</span>
+    <span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onPoorNetworkConnectionDetected</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// Called when the connection times out</span>
+    <span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onConnectionDisconnected</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// Called when idle time exceeds 600 seconds</span>
+    <span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onIdleTimeout</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// Called when network error</span>
+    <span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onNetworkError</span><span class="token punctuation">(</span>ex<span class="token operator">:</span> Exception<span class="token operator">?</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// Called when the streaming connection is established</span>
+    <span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onReceiveStream</span><span class="token punctuation">(</span>videoTrack<span class="token operator">:</span> VideoTrack<span class="token operator">?</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// Called when the first vide frame is rendered</span>
+    <span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onFirstFrameRendered</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// Called when the digital human start talking</span>
+    <span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onPlayStart</span><span class="token punctuation">(</span>text<span class="token operator">:</span> String<span class="token operator">?</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// Called when the digital human stop talking</span>
+    <span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onPlayEnd</span><span class="token punctuation">(</span>text<span class="token operator">:</span> String<span class="token operator">?</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// Called when receiving a websocket message (json) from the control server</span>
+    <span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onMessage</span><span class="token punctuation">(</span>msg<span class="token operator">:</span> String<span class="token operator">?</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// Called when the control server is disconnected</span>
+    <span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onSocketClosed</span><span class="token punctuation">(</span>code<span class="token operator">:</span> Int<span class="token punctuation">,</span> reason<span class="token operator">:</span> String<span class="token operator">?</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// Called when the control server is connected incorrectly or the network is disconnected</span>
+    <span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onSocketError</span><span class="token punctuation">(</span>ex<span class="token operator">:</span> Exception<span class="token operator">?</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// Called fps detection</span>
+    <span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onStatsUpdated</span><span class="token punctuation">(</span>fps<span class="token operator">:</span> int<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><p>All the available callback functions are listed above. Be careful that some callback functions should be called in non-UI threads, such as <code>onFirstFrameRendered</code>,</p> <p>So if you want to update the interface, you need to <code>dispatch</code> the code to the main thread (for example, use: <code>runOnUiThread {}</code>) to avoid <code>ANR</code> problems.</p> <p>All callback functions do not need to call <code>super.xxxx()</code>.</p> <h2 id="lifecycles"><a href="#lifecycles" class="header-anchor">#</a> Lifecycles</h2> <p>Finally, the same method of <code>RTCPlayerClient</code> should be called in the life cycle method of <code>PlayerActivity</code>.</p> <div class="language-kotlin extra-class"><pre class="language-kotlin"><code><span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onStart</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">.</span><span class="token function">onStart</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    playerClient<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onStop</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">.</span><span class="token function">onStop</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    playerClient<span class="token punctuation">.</span><span class="token function">stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onResume</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">.</span><span class="token function">onResume</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    playerClient<span class="token punctuation">.</span><span class="token function">resume</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onDestroy</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">.</span><span class="token function">onDestroy</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    playerClient<span class="token punctuation">.</span><span class="token function">release</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>That's all.</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/docs.github.io/en/ios/">
+        Face for iOS
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/docs.github.io/assets/js/app.d9cf887e.js" defer></script><script src="/docs.github.io/assets/js/2.1994c147.js" defer></script><script src="/docs.github.io/assets/js/10.6c4dabbe.js" defer></script>
+  </body>
+</html>
